@@ -53,34 +53,6 @@ It was designed for a real company that repairs and installs security cameras, a
   - Custom AppBar & BottomNavigation theming
   - `fluttertoast` for in‑app alerts
   - `month_year_picker` for attendance filtering
-
----
-
-## 🗂 Main Modules (High‑level)
-
-- `layout/admin_layout/` – main admin shell & splash
-- `modules/Admin_Screens/home_screen/` – admin home / dashboard  
-- `modules/Admin_Screens/tasks_screen/`
-  - company missions (with mission details)
-  - today’s tasks
-  - finished tasks
-- `modules/Admin_Screens/tools_screen/Employees/`
-  - employees list, add employee, employee details, employee data
-- `modules/Admin_Screens/tools_screen/Employees_Attending/`
-  - employees attendance overview + map (`LocationMap`)
-- `modules/Admin_Screens/tools_screen/My_Attendance/`
-  - personal attendance for the logged‑in user
-- `modules/Admin_Screens/tools_screen/personal_attending/`
-  - personal check‑in / check‑out
-- `modules/Admin_Screens/backup_screen/`
-  - backup screen + backup details
-- `modules/Admin_Screens/settings_screen/`
-  - settings (theme, language,…)
-- `modules/login_screen/`
-  - login for admin & employees
-
----
-
 ## 🚀 Getting Started
 
 ```bash
